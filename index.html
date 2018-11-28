@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html>
+
+
+<head>
+
+  <script src="https://d3js.org/d3.v5.min.js"></script>
+  <script type="text/javascript" src="d3_lineGraphTooltip.js"></script>
+  <script type="text/javascript" src="d3_lineGraph.js"></script>
+
+
+  <body>
+    <div class="chart-container" style="max-width: 1000px;"></div>
+    <div class="button-container"></div>
+  </body>
+
+
+  <script>
+    var line_graph = new Line_Graph({
+      data: [
+        {
+          "x": 1,
+          "series": "A",
+          "y": 908
+        },
+        {
+          "x": 2,
+          "series": "A",
+          "y": 804
+        },
+        {
+          "x": 3,
+          "series": "A",
+          "y": 967
+        },
+        {
+          "x": 4,
+          "series": "A",
+          "y": 70
+        },
+        {
+          "x": 5,
+          "series": "A",
+          "y": 888
+        },
+        {
+          "x": 6,
+          "series": "A",
+          "y": 940
+        },
+        {
+          "x": 7,
+          "series": "A",
+          "y": 47
+        },
+        {
+          "x": 8,
+          "series": "A",
+          "y": 381
+        },
+        {
+          "x": 9,
+          "series": "A",
+          "y": 449
+        },
+        {
+          "x": 10,
+          "series": "A",
+          "y": 960
+        },
+        {
+          "x": 11,
+          "series": "A",
+          "y": 107
+        },
+        {
+          "x": 12,
+          "series": "A",
+          "y": 912
+        },
+        {
+          "x": 13,
+          "series": "A",
+          "y": 855
+        },
+        {
+          "x": 14,
+          "series": "A",
+          "y": 290
+        },
+        {
+          "x": 15,
+          "series": "A",
+          "y": 360
+        },
+        {
+          "x": 16,
+          "series": "A",
+          "y": 150
+        },
+        {
+          "x": 17,
+          "series": "A",
+          "y": 993
+        },
+        {
+          "x": 18,
+          "series": "A",
+          "y": 499
+        },
+        {
+          "x": 19,
+          "series": "A",
+          "y": 839
+        },
+        {
+          "x": 1,
+          "series": "B",
+          "y": 905
+        },
+        {
+          "x": 2,
+          "series": "B",
+          "y": 239
+        },
+        {
+          "x": 3,
+          "series": "B",
+          "y": 813
+        },
+        {
+          "x": 4,
+          "series": "B",
+          "y": 732
+        },
+        {
+          "x": 5,
+          "series": "B",
+          "y": 149
+        },
+        {
+          "x": 6,
+          "series": "B",
+          "y": 430
+        },
+        {
+          "x": 7,
+          "series": "B",
+          "y": 292
+        },
+        {
+          "x": 8,
+          "series": "B",
+          "y": 799
+        },
+        {
+          "x": 9,
+          "series": "B",
+          "y": 648
+        },
+        {
+          "x": 10,
+          "series": "B",
+          "y": 534
+        },
+        {
+          "x": 11,
+          "series": "B",
+          "y": 147
+        },
+        {
+          "x": 12,
+          "series": "B",
+          "y": 417
+        },
+        {
+          "x": 13,
+          "series": "B",
+          "y": 775
+        },
+        {
+          "x": 14,
+          "series": "B",
+          "y": 700
+        },
+        {
+          "x": 15,
+          "series": "B",
+          "y": 512
+        },
+        {
+          "x": 16,
+          "series": "B",
+          "y": 355
+        },
+        {
+          "x": 17,
+          "series": "B",
+          "y": 164
+        },
+        {
+          "x": 18,
+          "series": "B",
+          "y": 545
+          
+        },
+        {
+          "x": 19,
+          "series": "B",
+          "y": 559
+        }
+      ],
+      element: document.querySelector('.chart-container'),
+    });
+  </script>
+
+
+
+</html>
